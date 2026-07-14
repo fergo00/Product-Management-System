@@ -21,4 +21,4 @@ A lightweight, local-storage-based Product Management System (CRUDS) built with 
 ## 📖 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/cruds-product-management.git](https://github.com/YOUR_USERNAME/cruds-product-management.git)
+   git clone [https://github.com/fergo00/cruds-product-management.git](https://github.com/YOUR_USERNAME/cruds-product-management.git)
