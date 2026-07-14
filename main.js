@@ -72,6 +72,10 @@ function submitProduct() {
         }
         clearInputs()
     }
+    else {
+        // Validation Feedback Alert!
+        alert("Please fill out the Title, Price, and Category fields before saving.");
+    }
     localStorage.setItem('product', JSON.stringify(dataProduct));
     showData()
 }
@@ -240,8 +244,8 @@ function searchData(value) {
                     <td>${dataProduct[i].discount}</td>
                     <td>${dataProduct[i].total}</td>
                     <td>${dataProduct[i].category}</td>
-                    <td><button onclick='updateDate( ${i} )' id="update">UPDATE</button></td>
-                    <td><button onclick="deleteProduct( ${i} )" id="delete">DELETE</button></td>
+                    <td><button onclick='updateProduct( ${i} )' id="update">UPDATE</button></td>
+                    <td><button onclick="deletePro( ${i} )" id="delete">DELETE</button></td>
                 </tr> 
             `;
         }
